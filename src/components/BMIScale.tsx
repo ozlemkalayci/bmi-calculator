@@ -19,10 +19,10 @@ export const BMIScale = ({ bmi }: BMIScaleProps) => {
           style={{ left: `${getPosition(bmi)}%` }}
         />
         <div className="absolute w-full h-full">
-          <div className="absolute h-full w-[30%] bg-[#9b87f5] rounded-l-full" />
-          <div className="absolute h-full w-[20%] left-[30%] bg-[#7E69AB]" />
-          <div className="absolute h-full w-[25%] left-[50%] bg-[#6E59A5]" />
-          <div className="absolute h-full w-[25%] left-[75%] bg-[#1A1F2C] rounded-r-full" />
+          <div className="absolute h-full w-[30%] bg-[#E5DEFF] rounded-l-full" />
+          <div className="absolute h-full w-[20%] left-[30%] bg-[#F1F0FB]" />
+          <div className="absolute h-full w-[25%] left-[50%] bg-[#FEC6A1]" />
+          <div className="absolute h-full w-[25%] left-[75%] bg-[#F97316] rounded-r-full" />
         </div>
       </div>
       <div className="flex justify-between text-sm text-muted-foreground">
